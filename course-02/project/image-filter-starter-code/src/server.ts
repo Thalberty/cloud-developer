@@ -25,7 +25,7 @@ import { exception } from 'console';
     try {
 
       // 2. call filterImageFromURL(image_url) to filter the image
-      var imageFiltered = await filterImageFromURL(image_url);
+      var imageFiltered: string = await filterImageFromURL(image_url);
 
       // 3. send the resulting file in the response
       res.status(200).sendFile(imageFiltered);
