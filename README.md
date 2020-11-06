@@ -1,7 +1,10 @@
-## Student: 
+## Student
 Thalbert B. de Miranda
 
-## GitHub repository:
+## Info about the project
+See product-specifications.pdf
+
+## GitHub repository
 https://github.com/Thalberty/cloud-developer/tree/master
 
 ## Local URL
