@@ -14,7 +14,7 @@ import { exception } from 'console';
   // Use the body parser middleware for post requests
   app.use(bodyParser.json());
 
-  app.get("/filteredimage", async (req, res) => {
+  app.get("/filteredimage", async (req: express.Request, res: express.Response) => {
     const { image_url } = req.query
 
     // 1. validate the image_url query
